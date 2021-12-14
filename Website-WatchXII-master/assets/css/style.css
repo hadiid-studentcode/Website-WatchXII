@@ -1,0 +1,232 @@
+.masuk {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.masuk:hover{
+  color:black;
+}
+
+.shop-best {
+  font-family: Rockwell;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.save-diskon {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  /* identical to box height, or 93% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.judul1-4 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  /* or 200% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.judul2-4 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+
+  /* identical to box height, or 58% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.judul3-4 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  /* identical to box height, or 217% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.mengapa {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+
+  /* or 58% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.karena {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  /* or 162% */
+
+  color: #ffffff;
+}
+
+.judul1-6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  /* identical to box height, or 150% */
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.judul2-6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+
+  /* identical to box height, or 53% */
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.kotak-grub7 {
+  background: rgba(0, 0, 0, 0.33);
+  border-radius: 134px;
+}
+
+.judul1-9 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+
+  color: #000000;
+}
+
+.judul2-9 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.Rectangle {
+  background: #1e2833;
+  color: white;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.text-reset{
+  text-decoration: none;
+}
+
+.icon-fire{
+  color: rgb(255, 0, 0);
+}
+
+.grup-form{
+  background-color: #1e2833;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  z-index: 5;
+  animation: form 5s;
+}
+@keyframes form{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
+.sub-title{
+  position: relative;
+  color: white;
+  font-size: 100px;
+  top: 20px;
+}
+.input-search{
+  position: relative;
+  background: none;
+  outline: none;
+  width : 800px;
+  height: 60px;
+  font-size: 30px;
+  color: #fff;
+}
+.input-search:focus{
+  box-shadow: -1px 2px 6px 4px rgb(128, 127, 127);
+}
+.rw-relative{
+  position: relative;
+  top: 200px;
+  left: 110px;
+}
+.btn-close{
+  font-size: 60px;
+  color: #fff;
+  position: relative;
+  top: 100px;
+}
+.btn-close:hover{
+  color : #fff;
+  cursor: pointer;
+}
